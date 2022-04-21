@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link as RouterLink, Outlet } from "react-router-dom";
 import useBreadcrumbs from "use-react-router-breadcrumbs";
-import { AppRoutes } from "App";
+import { AppRoutes } from "routes/Routes";
 
 const Breadcrumbs = () => {
   const options = {};
@@ -32,6 +32,9 @@ const Navigation = () => {
           </li>
           <li>
             <RouterLink to="/about">About</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/rates">Rates</RouterLink>
           </li>
         </ul>
       </div>

@@ -78,11 +78,11 @@ ul.breadcrumb li a:hover {
   text-decoration: underline;
 } 
 
-li {
+ul li {
   float: left;
 }
 
-li a {
+ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -91,7 +91,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+ul li a:hover {
   background-color: #111;
 }
 
@@ -99,4 +99,10 @@ li a:hover {
   display: block;
   padding: 8px;
   background-color: #eeeeee;
+}
+
+ol li a {
+  color: #0275d8;
+  text-decoration: none;
+  padding: 0;
 }
