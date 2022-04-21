@@ -17,8 +17,7 @@ const createRoute = ({ element, ...route }, index) => {
 export const Pages = [
   {
     index: true,
-    path: "/",
-    breadcrumb: "HomeIndex",
+    breadcrumb: "Home",
     element: React.lazy(() => import("pages/public/Home")),
   }, 
   { 
